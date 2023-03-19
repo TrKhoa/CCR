@@ -12,7 +12,7 @@ const GOOGLE_CLIENT_SECRET = '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';
 passport.use(new GoogleStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET,
-    callbackURL: 'http://localhost:8888/google/callback',
+    callbackURL: 'https://ccr-server.vercel.app/google/callback',
     passReqToCallbackURL: true,
 }, function(req, accessToken, refreshToken, profile, done){
     console.log(profile);

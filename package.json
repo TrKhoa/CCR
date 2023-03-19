@@ -25,7 +25,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "author": "Khoa Tran",
   "license": "ISC",

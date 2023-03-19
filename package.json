@@ -25,7 +25,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Khoa Tran",
   "license": "ISC",
